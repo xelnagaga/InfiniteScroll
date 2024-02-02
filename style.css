@@ -1,0 +1,57 @@
+/* 整体页面样式 */
+body {
+    font-family: 'Arial', sans-serif;
+    padding: 15px;
+    background-color: #f8f9fa; /* 浅灰色背景 */
+    min-width: 100px; /* 设置弹出页面的最小宽度 */
+}
+
+/* 标签样式 */
+label {
+    display: block; /* 使每个标签独占一行 */
+    margin-bottom: 5px; /* 在标签和输入框之间增加一些间距 */
+    color: #333; /* 深灰色文本 */
+    font-size: 14px; /* 文本大小 */
+}
+
+/* 输入框样式 */
+input[type="number"] {
+    width: 100%; /* 使输入框宽度充满容器 */
+    min-width: 60px; /* 确保输入框的最小宽度 */
+    padding: 8px; /* 增加内边距使输入更加舒适 */
+    margin-bottom: 15px; /* 在元素之间增加一些间距 */
+    border: 1px solid #ced4da; /* 浅灰色边框 */
+    border-radius: 4px; /* 轻微的圆角边框 */
+    box-sizing: border-box; /* 确保边框和内边距不会增加元素的总宽度 */
+}
+
+/* 按钮公共样式 */
+button {
+    width: 100%; /* 使按钮宽度充满容器 */
+    padding: 10px; /* 增加内边距使按钮更加舒适 */
+    margin-bottom: 10px; /* 在元素之间增加一些间距 */
+    border: none; /* 移除边框 */
+    border-radius: 4px; /* 轻微的圆角边框 */
+    cursor: pointer; /* 将鼠标光标变为指针，表示可点击 */
+    box-sizing: border-box; /* 确保边框和内边距不会增加元素的总宽度 */
+}
+
+/* 开始按钮样式 */
+#start {
+    background-color: #28a745; /* 绿色背景 */
+    color: white; /* 白色文本 */
+}
+
+#start:hover {
+    background-color: #218838; /* 鼠标悬停时的深绿色背景 */
+}
+
+/* 暂停按钮样式 */
+#pause {
+    background-color: #dc3545; /* 红色背景 */
+    color: white; /* 白色文本 */
+}
+
+#pause:hover {
+    background-color: #c82333; /* 鼠标悬停时的深红色背景 */
+}
